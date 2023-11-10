@@ -1,4 +1,5 @@
 // Arduino - LED Strip Communication
+// LED Strip: WS2812B
 // @author: Hayk Stepanyan 
 
 #include <FastLED.h>

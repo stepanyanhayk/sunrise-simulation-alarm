@@ -48,7 +48,7 @@ void set_time(int year, int month, int day, int hour, int minute, int second) {
   RTC.write(initial_time);
 }
 
-// Prints time in "Time = Hour:Minute:Second, Data (D/M/Y) = Day/Month/Year" format
+// Prints time in "Time = Hour:Minute:Second, Data (D/M/Y) = Day/Month/Year" format.
 void print_time(tmElements_t time) {
   Serial.print("Time = ");
   print_two_digits(time.Hour);
